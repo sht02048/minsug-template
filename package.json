@@ -1,17 +1,17 @@
 {
   "name": "minsug-template",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "bin": {
-    "create-vite-react": "bin/index.js"
+    "minsug-template": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "minsugchae",
   "license": "ISC",
-  "description": "",
+  "description": "A simple, interactive CLI tool for scaffolding multiple project templates (e.g., React + Vite, Next.js).",
   "dependencies": {
     "commander": "^14.0.0",
     "fs-extra": "^11.3.0",
